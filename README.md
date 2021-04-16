@@ -15,6 +15,7 @@ g++ yacc.tab.c lex.yy.c -ll -ly -w
 
 
 File names : lex file - lex.l,  yacc file - yacc.y 
+
 Name of the input file is in yacc file
 
 
