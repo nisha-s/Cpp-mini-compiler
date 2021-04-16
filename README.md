@@ -4,9 +4,9 @@ A mini compiler
 
 Steps to run the files:
 
-lex lex.l
-bison -d yacc.y
-g++ yacc.tab.c lex.yy.c -ll -ly -w
+lex lex.l \n
+bison -d yacc.y \n
+g++ yacc.tab.c lex.yy.c -ll -ly -w \n
 ./a.out 
 
 File names : lex file - lex.l,  yacc file - yacc.y 
