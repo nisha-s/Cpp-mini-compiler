@@ -176,7 +176,7 @@ def unreachable_code2(lines):
 	return final_list
 
 
-# Temporaries that are never assigned to any variable nor used in any expression are deleted.
+# Temporaries not used in any expressions are deleted.
 def unreachable_code3(list_of_lines) :
 	
 	num_lines = len(list_of_lines)
