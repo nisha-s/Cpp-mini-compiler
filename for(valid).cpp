@@ -13,7 +13,7 @@ int main()
 	for(i=n;i>0;i=i-1)
 	{
 		k = 2*i;
-		g = k+1;
+		g = x+1;
 	}
 	int c = a;
 	return c;
