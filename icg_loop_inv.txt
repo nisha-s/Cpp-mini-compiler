@@ -1,0 +1,26 @@
+a = 3
+b = 4
+g = 8
+n = 5
+k = 2
+t1 = a + 1
+k = t1
+t2 = a + 1
+x = t2
+i = n
+L1:
+t3 = i > 0
+if  t3  goto L2
+goto L3
+L4:
+t4 = i - 1
+i = t4
+goto L1
+L2:
+t5 = 2 * i
+k = t5
+t6 = x + 1
+g = t6
+goto L4
+L3:
+c = a
